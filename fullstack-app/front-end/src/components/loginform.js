@@ -27,7 +27,11 @@ const LoginForm = () => {
         onChange={(e) => setPassword(e.target.value)}
       />
       <FormButton text="Login" type="submit" />
+      <div className="register-login">
+          <h1>Ainda não possui conta? <a >Faça Registo</a></h1>
+        </div>
     </form>
+    
   );
 };
 

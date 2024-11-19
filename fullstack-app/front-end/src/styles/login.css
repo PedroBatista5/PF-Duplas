@@ -79,4 +79,12 @@ body {
   .login-register a:hover {
     text-decoration: underline;
   }
-  
+  h1{
+    color: #fff;
+    font-size: 14px;
+
+  }
+  a{
+    color: #add8e6;
+
+  }
