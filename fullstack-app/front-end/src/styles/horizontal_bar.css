@@ -1,0 +1,27 @@
+.horizontal-bar {
+  background-color: #204A2B; /* Verde-escuro */
+  height: 50px; /* Altura da barra */
+  display: flex;
+  align-items: center;
+  padding: 0 20px; /* Espaçamento interno */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2); /* Sombra */
+}
+
+.bar-content {
+  display: flex;
+  align-items: center;
+}
+
+.bar-logo {
+  height: 40px; /* Ajusta o tamanho do logo */
+  width: 40px; /* Altura e largura iguais para manter proporção */
+  margin-right: 20px; /* Espaçamento entre o logo e o texto */
+  margin: 5px;
+}
+
+.bar-text {
+  color: white;
+  font-size: 18px; /* Tamanho da fonte */
+  font-weight: bold;
+  font-family: Arial, sans-serif; /* Fonte */
+}
