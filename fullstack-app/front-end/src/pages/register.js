@@ -1,7 +1,7 @@
-
 import React, { useState } from "react";
 import FormInput from "../components/forminput";
 import FormButton from "../components/formbutton";
+import { useNavigate } from "react-router-dom"; // Hook para navegação
 import "../styles/register.css";
 
 const Register = () => {
@@ -9,6 +9,8 @@ const Register = () => {
   const [dataNascimento, setDataNascimento] = useState("");
   const [contacto, setContacto] = useState("");
   const [password, setPassword] = useState("");
+  const navigate = useNavigate(); // Instância do hook useNavigate
+  
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -50,7 +52,7 @@ const Register = () => {
           <FormButton text="Registrar" type="submit" />
         </form>
         <div className="login-register">
-          Já possui conta? <a >Faça login</a>
+        <h1>Já possui conta? <button onClick={() => navigate('/login')}>Faça Login</button></h1>
         </div>
       </div>
     </div>
