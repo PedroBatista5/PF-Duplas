@@ -5,19 +5,19 @@ import { useNavigate } from "react-router-dom"; // Hook para navegação
 import "../styles/register.css";
 
 const Register = () => {
-  const [utente, setUtente] = useState("");
-  const [dataNascimento, setDataNascimento] = useState("");
-  const [contacto, setContacto] = useState("");
-  const [password, setPassword] = useState("");
+  const [NSaude, setUtente] = useState("");
+  const [DataNasc, setDataNascimento] = useState("");
+  const [Contacto, setContacto] = useState("");
+  const [Passe, setPassword] = useState("");
   const navigate = useNavigate(); // Instância do hook useNavigate
   
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log("Nº Utente:", utente);
-    console.log("Data de Nascimento:", dataNascimento);
-    console.log("Contacto:", contacto);
-    console.log("Palavra-Passe:", password);
+    console.log("Nº Utente:", NSaude);
+    console.log("Data de Nascimento:", DataNasc);
+    console.log("Contacto:", Contacto);
+    console.log("Palavra-Passe:", Passe);
   };
 
   return (
@@ -28,25 +28,25 @@ const Register = () => {
           <FormInput
             type="text"
             placeholder="Nº Utente de Saúde"
-            value={utente}
+            value={NSaude}
             onChange={(e) => setUtente(e.target.value)}
           />
           <FormInput
             type="date"
             placeholder="Data de Nascimento"
-            value={dataNascimento}
+            value={DataNasc}
             onChange={(e) => setDataNascimento(e.target.value)}
           />
           <FormInput
             type="text"
             placeholder="Contacto"
-            value={contacto}
+            value={Contacto}
             onChange={(e) => setContacto(e.target.value)}
           />
           <FormInput
             type="password"
             placeholder="Palavra-Passe"
-            value={password}
+            value={Passe}
             onChange={(e) => setPassword(e.target.value)}
           />
           <FormButton text="Registrar" type="submit" />

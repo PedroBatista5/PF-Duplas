@@ -1,0 +1,8 @@
+C:\Users\Simao\Documents\GitHub\PF-Duplas\back-end\obj\Debug\net8.0\back-end.csproj.AssemblyReference.cache
+C:\Users\Simao\Documents\GitHub\PF-Duplas\back-end\obj\Debug\net8.0\back-end.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Simao\Documents\GitHub\PF-Duplas\back-end\obj\Debug\net8.0\back-end.AssemblyInfoInputs.cache
+C:\Users\Simao\Documents\GitHub\PF-Duplas\back-end\obj\Debug\net8.0\back-end.AssemblyInfo.cs
+C:\Users\Simao\Documents\GitHub\PF-Duplas\back-end\obj\Debug\net8.0\back-end.csproj.CoreCompileInputs.cache
+C:\Users\Simao\Documents\GitHub\PF-Duplas\back-end\obj\Debug\net8.0\back-end.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Simao\Documents\GitHub\PF-Duplas\back-end\obj\Debug\net8.0\back-end.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Simao\Documents\GitHub\PF-Duplas\back-end\obj\Debug\net8.0\back-end.sourcelink.json
